@@ -1,0 +1,37 @@
+{
+  "name": "save-money-today",
+  "version": "1.0.0",
+  "description": "Project to insert and visualize my personal spendings and save my money right now",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nildowjunior-projetos/save-money-today.git"
+  },
+  "keywords": [
+    "personal-use"
+  ],
+  "author": "NildoJr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nildowjunior-projetos/save-money-today/issues"
+  },
+  "homepage": "https://github.com/nildowjunior-projetos/save-money-today#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babelify": "7.2.0",
+    "browserify": "13.0.0",
+    "del": "2.2.0",
+    "gulp": "3.9.0",
+    "gulp-eslint": "1.1.1",
+    "vinyl-source-stream": "1.1.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
