@@ -11,7 +11,7 @@ gulp.task("clean", () => {
 });
 
 gulp.task("copyCss", () => {
-    return gulp.src(["node_modules/bootstrap/dist/css/bootstrap.css","css/principal.css"])
+    return gulp.src(["src/css/principal.css"])
         .pipe(gulp.dest('dist/css/'));
 });
 
